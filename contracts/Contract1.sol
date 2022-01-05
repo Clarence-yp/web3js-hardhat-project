@@ -11,7 +11,7 @@ import "./libraries/Base64.sol";
 
 import "hardhat/console.sol";
 
-contract MyEpicGame is ERC721 {
+contract FightGame is ERC721 {
     struct CharacterAttributes {
         uint256 characterIndex;
         string name;
